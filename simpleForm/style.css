@@ -1,0 +1,63 @@
+/* Reset default styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    padding-top: 40px;   /* Space from top */
+}
+
+/* Heading */
+h2 {
+    margin-bottom: 20px;
+}
+
+/* Form layout */
+label {
+    font-weight: bold;
+    display: block;
+    margin: 10px 0 5px 0;
+}
+
+input {
+    padding: 8px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+/* Buttons */
+button {
+    padding: 8px 16px;
+    margin: 15px 5px 20px 0;
+    border: none;
+    border-radius: 6px;
+    background-color: #007bff;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Output paragraph */
+#resultPara {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #eef2f7;
+    border-radius: 6px;
+    min-height: 30px;
+    width: 280px;
+    text-align: center;
+    font-weight: 500;
+}
